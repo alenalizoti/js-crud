@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #a2d5ab;
+    overflow-x: hidden;
+    position: relative;
+}
+.container{
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#tabela{
+    background-color: #e5efc1;
+    color: #557b83;
+}
+#tabela tr th,
+#tabela tr td{
+    padding: 0.5em;
+    align-items: center;
+    color: #557b83;
+
+}
+.registracija{
+    margin: 0 auto;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5efc1;
+    padding: 2em;
+    border-radius: 10px;
+}
+.registracija p{
+    display: flex;
+    flex-direction: column;
+    /* padding: 1em; */
+    margin-bottom: 0.5em;
+    gap: 0.3em;
+}
+.registracija p label{
+    text-align: center;
+    color: #557b83;
+}
+.registracija input[type="text"]{
+    height: 2.3em;
+    border-radius: 5px;
+    width: 15em;
+    border: none;
+    padding: 0.5em;
+}
+.registracija .radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0;
+    gap: 0.5em;
+    color: #557b83;
+
+}
+.registracija .radio div{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+#dugme_dodaj{
+    margin-top: 1em;
+    border: none;
+    background-color: #557b83;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: #e5efc1;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#dugme_dodaj:hover{
+    color: #557b83;
+    background-color: #d0d3c6;
+}
+.greska{
+    font-size: 0.7em;
+    color: red;
+}
+.update-div{
+    width: 31em;
+    padding: 1em;
+    height: 30em;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.update-div p{
+    display: flex;
+    flex-direction: column;
+    /* padding: 1em; */
+    margin-bottom: 0.5em;
+    gap: 0.3em;
+}
+.update-div p label{
+    text-align: center;
+    color: #fff;
+}
+.update-div input[type="text"]{
+    height: 2.3em;
+    border-radius: 5px;
+    width: 15em;
+    border: none;
+    padding: 0.5em;
+}
+.update-div .radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0;
+    gap: 0.5em;
+    color: #fff;
+
+}
+.update-div .radio div{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+#update_dugme{
+    margin-top: 1em;
+    border: none;
+    background-color: #557b83;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: #e5efc1;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#update_dugme:hover{
+    color: #557b83;
+    background-color: #d0d3c6;
+}
+.glavni{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tajmer{
+    height: 10vh;
+    background-color: red;
+}
+#parent{
+    height: 10vh;
+    color: fff;
+    background-color: #000;
+    font-size: 2em;
+}
+.izraz{
+    width: 20em;
+    justify-content: center;
+}
+.izraz .unos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.izraz h1{
+    text-align: center;
+}
+.izraz {
+    display: none;
+    background-color: #557b83;
+    padding: 2em;
+    border-radius: 10px;
+}
+.roditelj{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#resenje{
+    opacity: 0;
+}
